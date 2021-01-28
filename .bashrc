@@ -31,4 +31,8 @@ alias sf='fasd -sif'     # interactive file selection
 alias z='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
+export PATH=$PATH:~/.nodebrew/current/bin/
+#export PATH="/usr/local/opt/llvm/bin:$PATH"
+export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:$PATH"
+
 exec fish
